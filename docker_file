@@ -1,0 +1,11 @@
+#set the base image to python
+FROM python:3
+
+#set the working directory
+WORKDIR /part-one
+
+#copy the source to container
+COPY . /part-one/
+
+#specify the command to run when container starts
+CMD [ "python", "helloworld.py" ]
