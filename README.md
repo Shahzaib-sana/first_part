@@ -36,6 +36,5 @@
 - git init (To initialize the empty repo)
 - git remote add origin github_repo_url (To add the remote origin of given address)
 - git add . (To stage the changes in working dir for the commit)
-- git checkout -b main (To create the new branch)
 - git commit -m "message" (To tracked the file)
 - git push origin main (To push the codebase into github repo)
